@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src='js/jquery-3.2.1.min.js'></script>
+    <script type='text/javascript' src='js/index.js'></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+<div class="container-fluid">
+    <a href="http://www.google.com">click</a>
+
+    <div class="row categories">
+        <div class="col-md-4 firstrow">
+            <h3>Currently Selected</h3>
+            <ul class="selected categories">
+            </ul>
+        </div>
+        <div class="col-md-4 firstrow search_area">
+            <input type="text" name="search" id="search" placeholder="Search..">
+        </div>
+        <div class="col-md-4 firstrow suggested">
+            <div class="title">
+                <h3>Suggested Topics</h3>
+                <button class = "btn btn-info" id="link">Link Mode</button>
+            </div>
+            <ul class="suggested categories">
+
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="film_intersection">
+    <h3>Films with currently selected categories</h3>
+    <ul class="films"></ul>
+</div>
+
+</body>
+</html>
+
